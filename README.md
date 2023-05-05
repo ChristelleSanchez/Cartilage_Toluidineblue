@@ -1,26 +1,27 @@
 # Cartilage_Toluidineblue
 
-Script for semi-automated articular cartilage and growthplate analysis on Toluidine Blue Slides
+Script for semi-automated articular cartilage and growthplate analysis on Toluidine Blue Slides.
+
  Designed for mouse knee coronal section, but can be use in other animals (rat, guinea pig, rabbit....) whith image containing all medial OR lateral plateau (only one plateau in the image)
  See Sample image for example.
  Contain two automated parts (BT1 and BT2) separated by short manual processing on each image
 
- Data collected :
+ <b>Data collected :</b>
  - Articular cartilage plateau lenght in µm
  - Mean uncalcified articular cartilage thickness
  - Mean calcified articular cartilage thickness
  - Mean total articular cartilage thickness
  - Mean growth plate thickness (approximative)
  
- Must be adapted to your images:
+<b> Must be adapted to your images:</b>
  - pixel size : see BT1.groovy
  - maybe Stain Vector : see BT1.groovy
  
- IMPORTANT NOTE: I also tried to retrieve information from proteoglycan loss and blue destained using different cutoff value of stain intensity/RGB vectors but it was no successfull during validation on 20 slides stained in the same batch and with lot of normalization parameters, including vector intensity in the growthplate.
+ <b>IMPORTANT NOTE:</b> I also tried to retrieve information from proteoglycan loss with "color destained" using different cutoff value of stain intensity/RGB vectors but it was no successfull during validation on 20 slides stained in the same batch and with lot of normalization parameters, including vector intensity in the growthplate.
  Indeed, very small variation in slide thickness give too much variation in the color intensity. 
 
  **************************************************************************
- Tutorial
+ <b>Tutorial</b>
 1)	Capture images of the stained slides. Parameters here used Zeiss axio lab.A1 microscope with Axiocam 305 color camera and ZEN software, magnification 10x in .TIF or .PNG. Blank balance adjusted on the first slide, then keep the same parameters, with the plateau as horizontal as possible. All articular cartilage (medial or lateral) must be present in the image, as well as the growth plate. 
 2)	Create an empty folder somewhere
 3)	Open Qupath, File -> Project -> Create project, and select this folder 
