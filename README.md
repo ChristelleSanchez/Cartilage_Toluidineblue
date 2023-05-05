@@ -50,4 +50,4 @@ In Annotations, delete all annotations of GEOMETRY Class « Cartilage » other t
 -Select the ellipse "AreaGrowthPlate" and place it in the correct area, without modifying the size : at both intersections, the growth plate must be in the middle of the circle, below the articular cartilage. 
 -Adjust if needed the CartilageArea annotation with correspond to the growth plate in the circle (add missing chondrocyte cytoplasm or hole, correct the bone marrow interface
 -Open the next image and save the project.
-When all images are processed, save and close Qupath, then open again and run the script BT2.groovy Run for project, save then run save.groovy to collect all data in .tsv file. 
+When all images are processed, save and close Qupath, then open again and run the script BT2.groovy Run for project, <b>save</b> (very important step) then run save.groovy to collect all data in .tsv file. 
