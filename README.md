@@ -41,7 +41,7 @@ In Annotations, delete all annotations of GEOMETRY Class « Cartilage » other t
 - If there is less than 5% remaining uncalcified cartilage, delete any existing « PlateArea »
    -	If there is a PlateArea, select it and do « Unlock »
         Modify it with Wand and/or Brush tools: 
-1.	Correct quickly the area to remove any meniscus, ligament, osteophyte
+1.	Correct quickly the area to remove any meniscus, ligament, osteophyte i.e. using brush tools
 2.	Then zoom and correct more precisely – pay attention to add any too destained area/ chondrocytes cytoplasm that would be not present in the geometry. 
 3.	Object ->annotations->duplicate annotation
 4.	Set class « UncalcifiedArea » for the duplicate and remove the calcified area from it, following the tidemark
